@@ -9,14 +9,14 @@ create table tbl_customer (
     customer_name varchar(50) not null,
     nif varchar(18) not null,
     balance_to_pay float,
-    phone_number varchar(9),
+    p  varchar(9),
     primary key(customer_id)
 ) charset = utf8mb4;
 
 -- Criação da tabela de funcionários
 create table tbl_employee (
 	employee_id varchar(40) not null,
-    emp_name varchar(40) not null,
+    emp_name varchar(40) not null
     last_login datetime not null,
     username varchar(30),
     password_hash varchar(60) not null,
